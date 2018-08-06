@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stevan Stojšin | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/Poly.png" type="image/x-icon">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+<!-- <body style="background-image: url('img/new/img34.jpeg')"> -->
+    <section id="go-topSection"></section>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="img/porfolio-logo-p.png" alt="Logo">
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#projectsSection" id="projects">My Projects</a></li>
+                    <li><a href="#certificatesSection" id="certificates">Certificates</a></li>
+                    <li><a href="#contactSection" id="contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="banner-container" style="background-image: url('img/new/img34.jpeg')">
+            <div class="banner">
+                <figure class="portrait">
+                    <img src="img/300px.png" alt="Portrait">
+                    <figcaption>Stevan Stojšin</figcaption>
+                </figure>
+                <span>Front-end developer</span>
+                <p>
+                    Looking for challenges as a developer in an innovative team-oriented company, eager to
+                    continuously improve previously acquired skills with additional focus on learning new ones.
+                </p>
+            </div>
+        </section>
+
+        <section class="it-skills">
+            <div class="skill-tabs">
+                <h2 class="heading-tab top-skills-tab active-tab">Top Skills</h2>
+                <h2 class="heading-tab additional-skills-tab">Additional Skills</h2>
+            </div>
+            <div class="skills top-skills">
+                <div class="row">
+                    <div class="skill">
+                        <img src="img/tehnologies/html5.png" alt="HTML5">
+                    </div>
+                    <div class="skill">
+                        <img src="img/tehnologies/css3.png" alt="CSS3">
+                    </div>
+                    <div class="skill">
+                        <img src="img/tehnologies/js.png" alt="javaScript">
+                    </div>
+                </div>
+            </div>
+            <div class="skills additional-skills">
+                <div class="additional-row">
+                    <div class="additional-skill">
+                        <img src="img/tehnologies/sass.png" alt="SASS">
+                    </div>
+                    <div class="additional-skill">
+                        <img src="img/tehnologies/jquery.png" alt="jQuery">
+                    </div>
+                    <div class="additional-skill">
+                        <img src="img/tehnologies/bootstrap.png" alt="bootstrap">
+                    </div>
+                    <div class="additional-skill">
+                        <img src="img/tehnologies/AJAX.png" alt="ajax">
+                    </div>
+                    <div class="additional-skill">
+                        <img src="img/tehnologies/json.png" alt="json">
+                    </div>
+                    <div class="additional-skill">
+                        <img src="img/tehnologies/git.png" alt="git">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projectsSection">
+            <h2 class="heading-two">My Projects</h2>
+            <div class="container project-box">
+                <button class="arrows-ajax prev-img">&#10094;</button>
+                <div class="ajax-projects">
+
+                </div>
+                <button class="arrows-ajax next-img">&#10095;</button>
+            </div>
+        </section>
+
+        <section class="certificates" id="certificatesSection">
+            <h2 class="heading-two">Certificates</h2>
+            <div class="container certificates-box">
+                <div class="certificate-img">
+                    <img src="img/certificates/front-end-pravougaonik.jpg" alt="">
+                </div>
+                <div class="certificate-img">
+                    <img src="img/certificates/osnove-pravougaonik.jpg" alt="">
+                </div>
+                <div class="certificate-img">
+                    <img src="img/certificates/web-pravougaonik.jpg" alt="">
+                </div>
+                <div class="certificate-img">
+                    <img src="img/certificates/graficki-pravougaonik.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="form container" id="contactSection">
+            <h3 id="contact" class="heading-three">Please feel free to contact me at anytime</h3>
+            <form action="https://formspree.io/stevanstojsin88@gmail.com" method="POST">
+                <input type="text" name="Name" placeholder="Your name*" required>
+                <input type="email" name="Email" placeholder="Your email*" required>
+                <input type="text" name="Subject" placeholder="Subject">
+                <textarea name="Message" placeholder="Your message*" required></textarea>
+                <button id="submit-form" type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <button class="go-topSection"><a href="#go-topSection" id="go-top">&uarr;</a></button>
+    </main>
+
+    <footer>
+        <span>&copy; 2018 | Stevan Stojšin</span>
+    </footer>
+</body>
+</html>
